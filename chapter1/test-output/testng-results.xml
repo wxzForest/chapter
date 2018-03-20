@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="1281" started-at="2018-03-05T15:44:22Z" finished-at="2018-03-05T15:44:23Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="1281" started-at="2018-03-05T15:44:22Z" finished-at="2018-03-05T15:44:23Z">
+      <class name="com.smart.service.userServiceTest">
+        <test-method status="PASS" signature="springTestContextBeforeTestClass()[pri:0, instance:com.smart.service.userServiceTest@1e127982]" name="springTestContextBeforeTestClass" is-config="true" duration-ms="8" started-at="2018-03-05T15:44:22Z" finished-at="2018-03-05T15:44:22Z">
+        </test-method>
+        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:com.smart.service.userServiceTest@1e127982]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="942" started-at="2018-03-05T15:44:22Z" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" finished-at="2018-03-05T15:44:23Z">
+        </test-method>
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.smart.service.userServiceTest@1e127982]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="1" started-at="2018-03-05T15:44:23Z" finished-at="2018-03-05T15:44:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.smart.service.userServiceTest.hasMatchUser()]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="hasMatchUser()[pri:0, instance:com.smart.service.userServiceTest@1e127982]" name="hasMatchUser" duration-ms="314" started-at="2018-03-05T15:44:23Z" finished-at="2018-03-05T15:44:23Z">
+        </test-method>
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.smart.service.userServiceTest@1e127982]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="1" started-at="2018-03-05T15:44:23Z" finished-at="2018-03-05T15:44:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.smart.service.userServiceTest.hasMatchUser()]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="springTestContextAfterTestClass()[pri:0, instance:com.smart.service.userServiceTest@1e127982]" name="springTestContextAfterTestClass" is-config="true" duration-ms="0" started-at="2018-03-05T15:44:23Z" finished-at="2018-03-05T15:44:23Z">
+        </test-method>
+      </class>
+    </test>
+  </suite>
+</testng-results>
