@@ -1,14 +1,16 @@
-package com.smart.dao;
-
-import com.zbj.zop.gateway.AppConfig;
-import com.zbj.zop.gateway.ZopAnnotationBean;
-import org.springframework.context.annotation.Bean;
-
-public class OpenBean {
-
-    @Bean
-    public ZopAnnotationBean zopAnnotationBean(){
-        AppConfig config=new AppConfig("2016121309583430P542","BBA3FD5C1180A8FADDA0D5B14F27C338","test");
-        return new ZopAnnotationBean(config);
-    }
-}
+//package com;
+//
+//import com.zbj.zop.gateway.AppConfig;
+//import com.zbj.zop.gateway.ZopAnnotationBean;
+////import org.springframework.context.annotation.Bean;
+////import org.springframework.context.annotation.Configuration;
+//
+////@Configuration
+//public class OpenBean {
+//
+//    //@Bean
+//    public ZopAnnotationBean zopAnnotationBean(){
+//        AppConfig config=new AppConfig("2017121900000000D","2324324343fdgdM8SGEV3R75YSXWKBEIQ","test");
+//        return new ZopAnnotationBean(config);
+//    }
+//}

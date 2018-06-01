@@ -88,13 +88,44 @@
             <groupId>org.springframework</groupId>
             <artifactId>spring-test</artifactId>
             <version>${org.springframework.version}</version>
+            <scope>provided</scope>
         </dependency>
         <dependency>
             <groupId>org.testng</groupId>
             <artifactId>testng</artifactId>
             <version>${testng.version}</version>
         </dependency>
-
+        <dependency>
+            <groupId>com.zbj.zop.gateway</groupId>
+            <artifactId>java-zbj-zopgateway-sdk</artifactId>
+            <version>1.0.0-20180316.013947-1</version>
+        </dependency>
+        <dependency>
+            <groupId>com.zhubajie.category</groupId>
+            <artifactId>category-manager-north-api</artifactId>
+            <version>3.4.10</version>
+        </dependency>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.9</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+            <version>1.7.22</version>
+        </dependency>
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-log4j12</artifactId>
+            <version>1.7.22</version>
+        </dependency>
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-simple</artifactId>
+            <version>1.7.22</version>
+        </dependency>
     </dependencies>
     <build>
         <finalName>chapter1</finalName>

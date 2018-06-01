@@ -1,4 +1,4 @@
-package com.smart.dao;
+package com.smart.service;
 
 import com.zbj.zop.gateway.anno.ZopService;
 import com.zhubajie.category.api.dto.cate.CategoryDto;
@@ -21,10 +21,12 @@ public class GatewayTest {
     private CategoryService categoryService;
 
     @Test
-    public void gateWay(){
-        Result<List<CategoryDto>> result=categoryService.getCategoryAll(Request.<String>create().data("data"));
-        System.out.println("categoryid"+result.getData().get(0).getCategoryId());
-        Assert.assertTrue(result.isSuccess());
+    public void gateWay() throws Exception{
+        Request request=new Request();
+        request.setData("data");
+        Result<List<CategoryDto>> res = categoryService.getCategoryAll(request);
+        //System.out.println("categoryid"+result.getData().get(0).getCategoryId());
+        Assert.assertTrue(res.isSuccess());
 
     }
 }
